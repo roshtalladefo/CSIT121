@@ -81,6 +81,31 @@ nav a.current {
     color: #ffffff;
 }
 
+/* Format facts table */
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #eef3ee;
+    width: 35%;
+}
+
 /* Images and captions */
 
 figure {
