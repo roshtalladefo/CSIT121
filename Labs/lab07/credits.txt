@@ -1,0 +1,28 @@
+Image sources for Labs/lab07/images/
+All photos downloaded from Wikimedia Commons.
+
+jabulani.png
+  "Adidas Jabulani Official World Cup 2010" by Shawn Smith
+  License: CC BY 2.0
+
+t90-aerow.png
+  "Nike Total 90 Aerow II ball" by Santeri Viinamaki
+  License: CC BY 4.0
+
+brazuca.png
+  "Adidas brazuca" by Robo Michalec
+  License: CC0 (public domain, no attribution required)
+
+trionda.png
+  "Trionda (cropped)" by User34790
+  License: CC BY-SA 4.0
+
+ucl-ball.png
+  "UEFA Champions League ball 2021-2022" by Ararat Trvants
+  License: CC0 (public domain, no attribution required)
+
+vivido.png
+  "Wilson soccer ballA" (author not listed on Commons)
+  License: CC BY-SA 4.0
+
+All images were cropped square and resized to 300x300 pixels.

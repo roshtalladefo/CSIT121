@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Soccer Ball Fundraiser</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Soccer Ball Fundraiser</h1>
+            <nav>
+                <ul>
+                    <li><a href="tierlist.html">Tier List</a></li>
+                    <li><a href="contact.html">Fundraiser Form</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p>Help our team raise money for new soccer balls! Fill out the form below.</p>
+
+            <form method="post" aria-label="Soccer Ball Fundraiser Form">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+
+                <div>
+                    <label for="tier">Which tier of ball should our team buy?</label>
+                    <select id="tier" name="tier">
+                        <option value="peak">Peak</option>
+                        <option value="elite">Elite</option>
+                        <option value="mid">Mid</option>
+                        <option value="garbage">Garbage</option>
+                        <option value="diabolical">Diabolical</option>
+                    </select>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend>Have you ever played with a Jabulani?</legend>
+                        <input type="radio" id="jabulani-yes" name="jabulani" value="yes">
+                        <label class="inline-label" for="jabulani-yes">Yes</label>
+                        <input type="radio" id="jabulani-no" name="jabulani" value="no">
+                        <label class="inline-label" for="jabulani-no">No</label>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend>Which balls have you played with?</legend>
+                        <input type="checkbox" id="played-brazuca" name="played" value="brazuca">
+                        <label class="inline-label" for="played-brazuca">Brazuca</label>
+                        <input type="checkbox" id="played-jabulani" name="played" value="jabulani">
+                        <label class="inline-label" for="played-jabulani">Jabulani</label>
+                        <input type="checkbox" id="played-brine" name="played" value="brine">
+                        <label class="inline-label" for="played-brine">Brine Championship II</label>
+                        <input type="checkbox" id="played-vivido" name="played" value="vivido">
+                        <label class="inline-label" for="played-vivido">Wilson Vivido</label>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <label for="donation">Donation amount ($)</label>
+                    <input type="number" id="donation" name="donation" min="1">
+                </div>
+
+                <div>
+                    <label for="comments">Comments</label>
+                    <p id="comments-hint">Tell us about your favorite soccer ball.</p>
+                    <textarea id="comments" name="comments" maxlength="500" aria-describedby="comments-hint"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                    <input type="reset">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>Created by Rosh Talla Defo for CSIT121</p>
+        </footer>
+    </body>
+</html>

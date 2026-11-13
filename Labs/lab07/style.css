@@ -1,0 +1,134 @@
+/* Table and form structure based on CSIT121 Ch. 24 Table and Forms Notes. Table border styling based on W3Schools HTML Table Styling. */
+
+/* Page Basics */
+
+body {
+    background-color: #f5f5f5;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #2a4d3a;
+    color: #ffffff;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+/* Navigation */
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffd966;
+}
+
+/* Tier List Table */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #cccccc;
+}
+
+.peak {
+    background-color: #ff7f7f;
+}
+
+.elite {
+    background-color: #ffbf7f;
+}
+
+.mid {
+    background-color: #ffff7f;
+}
+
+.garbage {
+    background-color: #bfff7f;
+}
+
+.diabolical {
+    background-color: #7fbfff;
+}
+
+/* Form */
+
+form div {
+    margin-bottom: 15px;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    padding: 0;
+}
+
+label {
+    display: block;
+}
+
+.inline-label {
+    display: inline;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 300px;
+    padding: 6px;
+}
+
+button {
+    background-color: #2a4d3a;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-size: 14px;
+}
